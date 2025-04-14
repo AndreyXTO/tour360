@@ -1,0 +1,591 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+
+.formatos1{
+    font-size: 30px;
+    color:#1570cd;
+    font-weight: bolder;
+}
+
+.centrado{
+    text-align: center;
+
+}
+
+.cinebanner{
+    background-image: url("../imagenes/imagen1.jpg");
+    background-position: center;
+    height: 100vh;
+    
+}
+
+.cinebanner1{
+    background-image: url("../imagenes/imagen2.jpg");
+    background-position: center;
+    height: 100vh;
+    
+}
+
+/* Estilos de Tour virtual.html */
+
+.imgQS3 {
+    background-color: #01457e;
+    width: 18%;
+    margin-left: 42.5%;
+}
+
+.backgroundimg {
+    background-color: #01457e;
+}
+
+.fondotour {
+    background-color: #01457e;
+    height: 65px;
+}
+
+.estilotour {
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+/* ----------------------- */
+
+/* Estilos de menu.html */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body-menu{
+    background: rgb(7, 7, 7);
+    font-family: 'calibri';
+}
+
+.img-menu{
+    width: 250px;
+    float: left;
+    padding-bottom: 20px;
+}
+
+.menu{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.header-menu{
+    background: #01457e;
+    width: 100%;
+    clear: both;
+    content:'';
+    display: table;
+}
+
+.nav-menu {
+    float: right;
+}
+.ul-menu {
+    margin-left: 80px;
+}
+.li-menu {
+    list-style: none;
+    margin-left: 30px;
+    padding: 10px;
+    float:left;
+    position: relative;
+}
+
+.li-menu a:hover {
+    color: red;
+}
+
+.li-menu a:active {
+    color: greenyellow;
+}
+
+.a-menu {
+    color: #f7f2f2;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.a-menu::before {
+    display: block;
+    content:'';
+    width: 0%;
+    background: red;
+    height: 5px;
+    top: 0;
+    position: absolute;
+    transition: width 0.2s;
+}
+
+.a-menu:hover:before {
+    width: 100%;
+}
+
+
+.video-menu {
+    width: 1920px;
+    height: 970px;
+}
+
+.footer-menu {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* ----------------------- */
+
+/* Estilos de inicio.html */
+
+.body-inicio {
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+.body-inicio u {
+    color: white;
+}
+
+.h1inicio{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: rgb(252, 252, 252);
+    background-color: #01457e;
+    /*padding-top modifica la altura de arriba del fondo */
+    padding-top: 10px;
+    /*padding-bottom modifica la altura de abajo del fondo */
+    padding-bottom: 10px;
+}
+
+.formatopie {
+    color: #1500d3;
+}
+
+footer {
+    background-color: rgb(248, 243, 243);
+    padding: 10px 10px;
+}
+
+h2 {
+    font-size: 50px;
+    color: white;
+}
+
+.img-1 {
+    margin-bottom: 230px;
+    margin-right: 20px;
+}
+
+.img-2 {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.img-3 {
+    margin-left: 50px;
+    margin-bottom: 444px;
+    margin-right: 50px;
+    width: 150px;
+}
+
+.body-inicio header {
+    background-color: #01457e;
+}
+
+.body-inicio header img {
+    width: 15%;
+    margin-left: 830px;
+}
+
+.body-inicio section hr {
+    height: 4px;
+    background-color: white;
+    width: 220px;
+    margin:auto;
+}
+
+/* ----------------------- */
+
+/* Estilos de contactenos.html */
+
+.body-contactenos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: 'Montserrat', 'sans-serif';
+    background: url(../imagenes/contactenos.jpg);
+    /* background-position:  center center;*/
+    background-size: cover;  
+    background-repeat: no-repeat;    
+}
+
+
+.body-contactenos header p {
+    color: white;
+    padding-bottom: 420%;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+.contac-contenedor {
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    padding: 20px;
+    gap: 10px;
+    width: 1000px;
+}
+
+.box-info {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.box-info h1 {
+    text-align: left;
+    letter-spacing: 5px;
+    padding-top: 120px;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-top: 10px;
+}
+
+.data p {
+    font-size: 1.1rem;
+    font-weight: bold;
+
+}
+
+.data p i {
+    color: crimson;
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+.links {
+    display: flex;
+    gap: 15px;
+}
+
+.links a {
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    background: crimson;
+    text-align: center;
+    transition: .1s;
+}
+
+.links a i {
+    color: #fff;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    padding-top: 120px;
+}
+
+.input-box {
+    position: relative;
+}
+
+.input-box input {
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    outline: none;
+    background: rgba(255 255 255 / .1);
+    border: 3px solid transparent;
+    letter-spacing: 1px;
+    transition: .3s;
+    color: #fff;
+}
+
+.input-box input:focus,
+.input-box textarea:focus {
+    border-bottom: 3px solid crimson;
+}
+
+.input-box input::placeholder,
+.input-box textarea::placeholder {
+    color: #a3a3a3;
+}
+
+.input-box input:focus::placeholder,
+.input-box textarea:focus::placeholder {
+    color: transparent;
+}
+
+.input-box textarea {
+    width: 100%;
+    height: 130px;
+    background: rgba(255 255 255 / .1);
+    border: 3px solid transparent;
+    letter-spacing: 1px;
+    transition: .3s;
+    color: #fff;
+    padding: 10px;
+    outline: none;
+}
+
+.input-box i {
+    color: rgba(255 255 255 / .3);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+}
+
+.input-box input:focus ~ i {
+    color: crimson;
+}
+
+form button {
+    background: crimson;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 10px;
+    transition: .2s;
+}
+
+form button:hover,
+.links a:hover {
+    background: rgb(150, 13, 40);
+}
+
+@keyframes shake {
+    0%, 100% {transform: translateX(0);}
+    10%, 30%, 50%, 70%, 90% {transform: translateX(-10px);}
+    20%, 40%, 60%, 80% {transform: translateX(10px);}
+}
+
+@media screen and (max-width: 600px) {
+    .contac-contenedor{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .box-info {
+        gap: 15px;
+    }
+
+    .box-info h1 {
+        font-size: 1.5rem;
+    }
+}
+
+
+/* ----------------------- */
+
+
+/* Estilos de quienessomos.html */
+
+.imgQS1 {
+    opacity: 0.8;
+    
+}
+
+.body-quienessomos{
+    background-color: #01457e;
+    overflow-x: hidden;
+}
+
+.body-quienessomos section {
+    padding: 20px;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+
+.body-quienessomos div {
+    position: relative;
+    text-align: center;
+}
+
+
+.body-quienessomos h1 {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.body-quienessomos p {
+    color: white;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.imgQS2 {
+    width: 20%;
+    margin-left: 41%;
+}
+
+
+
+/* ----------------------- */
+
+.hr1{
+    width: 735px;
+    margin-left: 590px;
+    /*height es para aumentar el grosor de la línea*/
+    height: 4px;
+    background-color: #070707;    
+}
+
+.h2landing{
+    font-size: 50px; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form1{    
+    display: flex;
+    justify-content: center;    
+    color: #fff;
+    padding-top: 100px;
+}
+
+.espacio1{
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+
+
+video{
+    /*fixed es para que no haya scroll*/
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    /*para que el video siempre se vea centrado incluso cuando pongas titulos, etc, serían estas coordenadas
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);*/
+    z-index: -1;
+}
+
+
+
+.h1index{
+    color: rgb(225, 237, 241);
+    justify-content: center;
+    padding-top: 250px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+   
+    
+}
+
+.abajo1{
+    padding-top: 10px;
+}
+
+.abajo2{
+    padding-top: 30px;
+}
+
+.font-control{
+    font-size: 25px;
+}
+
+.font-control1{
+    font-size: 20px;
+
+}
+
+.botones {
+    width: 150px;
+    height: 30px;
+    border: 3px solid #070707;
+    /* Cursor: pointer es la mano que sale cuando se para el cursor en el botón */
+    cursor: pointer;
+    color: #fff;
+    background-color: #8e09db;
+    font-family: Arial;
+    font-size: 30px;
+    /*es una negrita*/
+    font-weight: bold;
+    /*espaciado*/
+    padding: 6px 35px;
+    /*quita subrayado*/
+    text-decoration: none; 
+    text-shadow: 0px 1px 0px #0a2ada;
+    transition: all linear 0.2s;
+    /*forma del boton redondeado*/
+    border-radius: 24px;
+}
+
+.botonlogin{
+    width: 150px;
+    height: 30px;
+    border: 3px solid #070707;
+    /* Cursor: pointer es la mano que sale cuando se para el cursor en el botón */
+    cursor: pointer;
+    color: #fff;
+    background-color: #8e09db;
+    font-family: Arial;
+    font-size: 20px;
+    /*es una negrita*/
+    font-weight: bold;
+    /*espaciado*/
+    padding: 6px 35px;
+    /*quita subrayado*/
+    text-decoration: none; 
+    text-shadow: 0px 1px 0px #0a2ada;
+    transition: all linear 0.2s;
+    /*forma del boton redondeado*/
+    border-radius: 24px;
+}
+
+.botonlanding{
+    width: 150px;
+    height: 30px;
+    border: 3px solid #070707;
+    /* Cursor: pointer es la mano que sale cuando se para el cursor en el botón */
+    cursor: pointer;
+    color: #fff;
+    background-color: #8e09db;
+    font-family: Arial;
+    font-size: 20px;
+    /*es una negrita*/
+    font-weight: bold;
+    /*espaciado*/
+    padding: 6px 35px;
+    /*quita subrayado*/
+    text-decoration: none; 
+    text-shadow: 0px 1px 0px #0a2ada;
+    transition: all linear 0.2s;
+    /*forma del boton redondeado*/
+    border-radius: 24px;
+}
+
+
+
+
