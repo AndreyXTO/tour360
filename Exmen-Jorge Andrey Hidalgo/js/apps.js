@@ -46,7 +46,7 @@ panorama.add(infospot4);
 var infospot5 = new PANOLENS.Infospot(50, PANOLENS.DataImage.Info);
 infospot5.position.set(-500 ,76 , 4);
 infospot5.addHoverText('Un audio MP3 multimedial...', -60);
-infospot5.element.innerHTML = '<div style="background-color: rgba(0,0,0,0.8); color:#fff; border-radius: 5px; padding: 10px, font-size: 14px; width: 200px;"> Asientos VIP para mejor vista y calidad de servicio personalizado.</div> <img src="imagenes/VIP.jpg" alt="Asientos VIP" style="width: 80%; border-radius: 5px; margin: 10px 0;">';
+infospot5.element.innerHTML = '<div style="background-color: rgba(0,0,0,0.8); color:#fff; border-radius: 5px; padding: 10px, font-size: 14px; width: 200px;"> Asientos VIP para mejor vista y calidad de servicio personalizado.</div> <img src="imagenes/VIP.jpg" alt="Asientos VIP" style="width: 60%; border-radius: 5px; margin: 10px 0;">';
 panorama.add(infospot5);
 
 // PDF
